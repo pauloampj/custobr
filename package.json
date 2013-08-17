@@ -1,0 +1,18 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.3.4",
+    "jade": "*",
+    "ejs": "*",
+	"googleapis": "*"
+  },
+  "devDependencies": {
+    "grunt-contrib-watch": "~0.4.4",
+    "connect-livereload": "~0.2.0"
+  }
+}
